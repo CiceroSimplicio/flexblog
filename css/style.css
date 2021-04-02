@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* superinfo */
+
+.superinfo-bg {
+    background-color: #122ab2;
+    padding-top: 5px;
+}
+
+.superinfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.superinfo p, .superinfo a {
+    color: white;
+    font-size: .9em;
+    margin: 0 10px 5px 10px;
+}
+
+.superinfo a:hover {
+    color: #2c70ff;
+}
+
+/* menu */
+
+.menu-bg {
+    background-color: #2c70ff;
+    padding: 15px 0;
+    
+}
+
+.menu {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-logo a {
+    font-size: 2.25em;
+    color: white;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a {
+    display: block;
+    font-size: 1.15em;
+    color: white;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.menu-nav a:hover {
+    color:#122ab2;
+}
+
+.introducao {
+    font-size: 2.5em;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px 10px;
+}
+
+/* sobre */
+
+.sobre {
+    border-top: 2px solid #2c70ff;
+    border-bottom: 2px solid #2c70ff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-info {
+    flex: 2 1 300px;
+    margin: 0 10px
+}
+
+.sobre-info h1 {
+    font-size: 2.5em;
+    margin-bottom: .5em;
+}
+
+.sobre-info p {
+    font-size: 1.15em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: #7c7c7c;
+}
+
+.sobre-img {
+    flex: 1 1 160px;
+    margin: 0 10px;
+}
